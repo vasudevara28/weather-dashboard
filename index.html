@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Weather Dashboard</h1>
+<select id="citySelect">
+<option value="London">London</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Tokyo">Tokyo</option>
+<option value="Hyderabad">Hyderabad</option> <!-- Added Hyderabad -->
+</select>
+<div id="weatherInfo">
+<h2>Weather Information</h2>
+<p id="description"></p>
+<p id="humidity"></p>
+</div>
+<canvas id="weatherChart" width="800" height="400"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
